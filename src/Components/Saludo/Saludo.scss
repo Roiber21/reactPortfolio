@@ -1,0 +1,71 @@
+.container_saludo{
+    display: grid;
+    height: 31vh;
+    margin-top: -34px;
+    place-content: end center;
+}
+.saludo{
+    width: 600px;
+}
+#verde1{
+    animation-name: changeColor;
+    animation-duration: 4s;
+   animation-delay: 2s;
+    
+}
+#verde4{
+    animation-name: changeColor2;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    
+}
+#verde2{
+    animation-name: changeColor;
+    animation-direction: reverse;
+    animation-duration: 6s;
+}
+#verde3{
+    animation-name: changeColor2;
+    animation-direction: reverse;
+    animation-duration: 4s;
+}
+@keyframes changeColor {
+    0%{
+        fill: #EBEDF0;
+    }
+    25%{
+        fill: #30A14E;
+    }
+  
+    75%{
+        fill: #40C463;
+    }
+   
+    
+}
+@keyframes changeColor2 {
+   
+    25%{
+
+        fill:  rgb(33, 110, 57);
+    }
+    50%{
+        fill: #30A14E;
+    }
+    75%{
+        fill: #216E39;
+    }
+    100%{
+        fill: #40C463;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .saludo{
+        width: 300px;
+
+    }
+
+
+}

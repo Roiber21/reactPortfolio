@@ -1,0 +1,23 @@
+
+.container_loader{
+    display: grid;
+    place-content: center;
+    height: 90vh;
+}
+#fondo{
+    animation-name: ChangeColor;
+    animation-duration: 4s;
+   
+}
+
+
+@keyframes ChangeColor {
+   
+    25%{
+        fill: #141414;
+        border-radius: 60px;
+    }
+  
+   
+    
+}

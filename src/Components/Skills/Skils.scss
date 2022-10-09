@@ -1,0 +1,99 @@
+.container_skills{
+    width: 60%;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0px 8px 48px rgba(0, 0, 0, 0.12);
+    display: grid;
+    height: 400px;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 130px;
+    grid-template-columns: 1fr;
+    grid-template-rows:  40px 1fr;
+}
+.container_items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    place-items: center;
+    margin: auto;
+}
+.item{
+    background-color: black;
+   display: grid;
+   grid-template-columns: 103px 1fr 2fr;
+    width: 240px;
+    height: 87px;
+    margin: 5px;
+    border-radius: 20px;
+    place-items: center;
+ }
+.title_skills{
+    font-size: 2rem;
+    color: black;
+    width: 25%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    font-weight: 400;
+    font-family: 'Monoton', cursive;
+    line-height: 59px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.31);
+}
+.item-1{
+    background-color: rgba(255, 223, 0, 0.35);
+}
+
+
+.item_2{
+    background-color: rgba(0, 207, 127, 0.26);
+}
+.item_3{
+    background-color:rgba(27, 6, 131, 0.4);
+}
+.item_4{
+    background-color:rgba(0, 216, 255, 0.12);
+}
+.item_5{
+    background-color:rgba(218, 74, 46, 0.45);
+}
+.item_6{
+    background-color:rgba(0, 127, 255, 0.17);
+}
+.item_7{
+    background-color:rgba(255, 206, 191, 0.58);
+}
+.item_8{
+    background-color:rgba(142, 214, 251, 1);
+}
+.item_9{
+    background-color:rgba(255, 173, 5, 0.35);
+}
+.iconos{
+    width: 70px;
+    height: 70px;
+    color: black;
+}
+.item_title{
+    color: #000000;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight:300;
+    font-size: 20px;
+}
+@media screen and (max-width:768px){
+   .container_skills{
+    width: 80%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 1fr;
+    min-height: 1117px;
+   }
+   .container_items{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+   }
+   .title_skills{
+    width: 38%;
+   }
+}
