@@ -13,8 +13,10 @@ import { SiVite } from 'react-icons/si'
 
 const Skills = () => {
     return (
-        <div className="container_skills">
-            <p className='title_skills'>Skills</p>
+        <section>
+            <h1 id='skills' className='title_projects'>Skills</h1>
+        <div  className="container_skills">
+    
             <div className="container_items">
                 <div className="item item-1">
                <IoLogoJavascript className='iconos' />
@@ -64,6 +66,7 @@ const Skills = () => {
                 </div>
             </div>
         </div>
+        </section>
     );
 }
 

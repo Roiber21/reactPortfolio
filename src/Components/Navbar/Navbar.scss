@@ -22,20 +22,44 @@
     right: 0%;
     bottom: auto;
     z-index: 20;
-    display: flex;
+    height: 50px;
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 24px;
     padding-left: 24px;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+   display: grid;
+   grid-template-columns: 1fr ;
+  
 }
 .image_perfil{
     object-fit: cover;
     overflow: hidden;
+}
+.menu_boton1{
+    grid-column-start: 1;
+    place-self: start;
+}
+.menu_boton2{
+    grid-column-start: 2;
+    place-self: end;
+    color: black;
+    cursor: pointer;
+}
+
+.menu_boton2:hover{
+    border-radius: 41px;
+    background-color: #fdfdfd;
+    box-shadow: 0 4px 48px 0 rgb(0 0 0 / 12%);
+    will-change: transform;
+    transform: translate3d(0.73856px, 0.73856px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+.menu_boton1:hover{
+    border-radius: 41px;
+    background-color: #fdfdfd;
+    box-shadow: 0 4px 48px 0 rgb(0 0 0 / 12%);
+    will-change: transform;
+    transform: translate3d(0.73856px, 0.73856px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
 }

@@ -5,6 +5,9 @@ import Navbar from './Components/Navbar/Navbar'
 import Loader from './Components/Loader/Loader'
 import Saludo from './Components/Saludo/Saludo'
 import Skills from './Components/Skills/Skills'
+import Portfolio from './Components/Portfolio/Portfolio'
+import Footer from './Components/Footer/Footer'
+import Contact from './Components/Contact/Contact'
 
 function App() {
   const [loading, setLoading]= useState(false);
@@ -13,7 +16,7 @@ function App() {
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    },2000)
+    },1000)
   },[])
   
 
@@ -31,6 +34,9 @@ function App() {
      <Navbar></Navbar>
      <Header></Header>
      <Skills></Skills>
+     <Portfolio></Portfolio>
+     <Contact></Contact>
+     <Footer></Footer>
     
     
      </>
