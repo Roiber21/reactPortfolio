@@ -98,9 +98,9 @@
 @media screen and (max-width:768px){
     .container_projects{
         width: 90%;
-    min-height: 668px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 136px 1fr 210px 126px;
+        min-height: 590px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 78px 1fr 210px 126px;
     } 
     .image_project {
         width: 255px;
@@ -120,5 +120,8 @@
         margin: auto;
         margin-top: 0;
         width: 255px;
+    }
+    .details_projects{
+        font-size: 1rem;
     }
 }
