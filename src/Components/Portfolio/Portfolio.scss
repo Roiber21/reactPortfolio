@@ -97,10 +97,12 @@
 
 @media screen and (max-width:768px){
     .container_projects{
+        grid-gap: 34px;
         width: 90%;
-        min-height: 590px;
+        min-height: 450px;
         grid-template-columns: 1fr;
-        grid-template-rows: 78px 1fr 210px 126px;
+        grid-template-rows: 64px 1fr 210px 126px;
+     
     } 
     .image_project {
         width: 255px;
@@ -111,7 +113,7 @@
     }
     .image_project2{
         width: 105px;
-    height: 198px;
+        height: 198px;
         grid-column: 1;
         grid-row: 2;
         place-self: center;
@@ -122,6 +124,6 @@
         width: 255px;
     }
     .details_projects{
-        font-size: 1rem;
+       display: none;
     }
 }

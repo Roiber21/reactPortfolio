@@ -102,6 +102,7 @@ const Portfolio = () => {
                     <a className='redirect_image' href={demo} target='_blank'>
                         <img   className={clase} src={image} alt={title} />
                      </a>
+                     
     
                     <div className='buttons_projects'>
                         <a href={github} target='_blank' className='button_projects'>Go to Github <AiOutlineArrowRight/></a>

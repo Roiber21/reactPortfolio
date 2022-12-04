@@ -25,6 +25,7 @@ const Navbar = () => {
     };
 
     document.addEventListener("mousedown", handler);
+
     
 
     return() =>{
@@ -34,7 +35,7 @@ const Navbar = () => {
   });
  
     return (
-          <main className='Navbar'>
+          <main  className="Navbar">
         <div className='menu_boton1'>
           <img className='image_perfil menu_boton' src="https://ristlean.sirv.com/perfil-24L4gqhs.jpg" alt="" />
         </div>

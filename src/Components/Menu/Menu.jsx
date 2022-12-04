@@ -7,7 +7,8 @@ import { RiMessage3Fill } from 'react-icons/ri'
 
 const Menu = () => {
     return (
-        <main  className="menu">
+        <body className='overlay'>
+             <main  className="menu">
             <div className='menu_items'>
                 <a  className='item_menu' href='#home'><HiHome/>     Home</a>
                     <a  href="#skills" ><BsFillPersonFill/>     Skills</a>
@@ -16,6 +17,8 @@ const Menu = () => {
             </div>
                     
         </main>
+        </body>
+       
     );
 }
 
